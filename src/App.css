@@ -1,0 +1,82 @@
+body{
+    background-color: #393E46 !important;
+}
+.card{
+    width: fit-content;
+    transition: 0.2s;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #EEEEEE !important;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #EEEEEE;
+}
+
+.btn{
+    width: fit-content;
+    background-color: black;
+    color: white !important;
+    border:none;
+    
+}
+.btn:hover{
+    background-color: rgb(156, 132, 132);
+    color: black !important;
+}
+.card-body{
+    border-radius: 0 0 10px 10px;
+    background-color: #EEEEEE;
+    width: 100%;
+
+    
+}
+a:hover{
+    color: white !important;
+}
+.align-right{
+    position: absolute;
+    right: 0;
+}
+.m1{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.navbar{
+    background-color: #C3B091 !important; 
+}
+    a{
+    color: rgb(49, 26, 26) !important;
+}
+.img{
+    border-radius: 10px 10px 0 0;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+}
+.img1{
+    height: 30px;
+    filter: grayscale(100%);
+    
+}
+button{
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    width: fit-content;
+    height: fit-content ;
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+}
+.loading{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.white{
+    color: white;
+}
